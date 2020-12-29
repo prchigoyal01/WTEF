@@ -8,9 +8,9 @@ public abstract class Interval {
         limit = 0;
     }
 
-    Interval(int start) {
-        this.start = start;
-        this.limit = 0;
+    Interval(int limit) {
+        this.start = 0;
+        this.limit = limit;
     }
 
     Interval(int start, int limit) {
